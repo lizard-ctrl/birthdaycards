@@ -1,0 +1,113 @@
+body{
+    text-align: center;
+    background-image: url(gifs/flower06.gif);
+   
+    background-color: black;
+}
+
+.almendra-regular {
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .almendra-bold {
+    font-family: "Almendra", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .almendra-regular-italic {
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .almendra-bold-italic {
+    font-family: "Almendra", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+h1{
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: italic; 
+    font-size: 70px;
+    color: greenyellow;
+}
+
+#birthday{
+    position: absolute;
+   width: 70%;
+   height: 70%;
+   padding: 4%;
+   background-color: aliceblue;
+
+      
+}
+
+.hearts1 {
+    border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAC20lEQVR4Xu2b25aDIAxFp///0TP6VsDl9pAEdc3pY3MhbJIAtn5+xs/vwXffX31Ani3Ojof8qfE3PI7g0IAG2iI3UDUFlYp1hsbpDhnalziVtKqvhqz6r9an+Jvxd3h3B9QHXB2P6t9AgYCBJgN6PNB+vtSDoyUetTdQZyi18VYezRjVXtWn2aTv8i75LwIzxyZpxTblvqdGM2S1vXQVN9BxwWnTO61IAzVQ+WZHGUfHvMeXfHSCUXu1B0v6d5R8FEjUXgKkPuswUL2HnrYIA10AlM6ZJKcmT/alJXkwuLTpUPBHGUo2JDdQIiTKDVQERur/HigBulue2uOqJxPNpur4dv8GmkzZQA00mcDL3ann4Ga6b+ihq9fHQJOJG+jTgaq7qqqfPP+wO8pIkmMPVQGp+mECyQ4IGMkNtFsQAkZyA60GKq3AwVWQjl6q/+SKHtxF4zm1n3lirwak6hsoEDDQZEAGmlxzdwOtHr/xP9NDVd7VE6J4qsc3UFoBUW6gIjBSH4D2BtESidrTBFS5Gk9I/8qbdHRwz14QFRjphwBtzmn+ztDKY6EzdKQbymhK5304GoDkVJKr5erjRknfQMflpJcsegt8X17dZJyhX8ScoTdkqJqxq3vio8a7kqEGKiyZgQqwrqga6BVKgs4MUMH9lKp07psaodDIQJPhGqiB4tOfZESau5kMze5x6k1L1SciNB+yb+QGyv/hN1CJgIHi40SRJ75lIvm7UvJqz6rWj16F1fgIKP4Esjrg6ARVe1XfQIGAgSYDWg6UzmXUd6MBV9tH/Z+2xCu/evYODLQlgpuSM5S2IQNtCJSXfOkA21Te1iJCLa7i/6HqAqn60XMy2RtoR4AqwkCTz6EG2hGItgjaw1X/w7FJdVAa0IJNrDT+N25K2QlALYB6sjM0uSeHb0pUMuqxgzIk6k+NNxTPzF1eDZBKJjQBNZgJfekqbqBM2ECZkaQhAf0D8+xgQKtYvA8AAAAASUVORK5CYII=') 28 /  28px / 0 round;
+    border-width:  28px;
+    border-style:  solid; 
+    padding: 4%;
+  }
+
+  #open{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    height: 12%;
+    background-color: greenyellow;
+    border-radius: 50%;
+    font-size: 30px;
+    overflow: hidden;
+  }
+
+  p{
+    text-align: center;
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: italic; 
+    font-size: 50px;
+    color: #3399FF;
+  }
+
+  marquee {
+    
+    font-size:2em;
+    line-height:1.3em;
+    color:#3399FF;
+    background-color:#99FF33;
+    padding:.4em;
+    
+    }
+
+  @media (max-width: 1000px) {
+  
+    #birthday{
+        position: absolute;
+        left: 13%;
+        top: 5%;
+       width: 60%;
+       height: 80%;
+       border-radius: 5%;
+      
+       background-color: black;
+       overflow: scroll;
+    
+          
+    }
+
+    pre{
+        color: greenyellow;
+    }
+    
+    .hearts1 {
+        border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAC20lEQVR4Xu2b25aDIAxFp///0TP6VsDl9pAEdc3pY3MhbJIAtn5+xs/vwXffX31Ani3Ojof8qfE3PI7g0IAG2iI3UDUFlYp1hsbpDhnalziVtKqvhqz6r9an+Jvxd3h3B9QHXB2P6t9AgYCBJgN6PNB+vtSDoyUetTdQZyi18VYezRjVXtWn2aTv8i75LwIzxyZpxTblvqdGM2S1vXQVN9BxwWnTO61IAzVQ+WZHGUfHvMeXfHSCUXu1B0v6d5R8FEjUXgKkPuswUL2HnrYIA10AlM6ZJKcmT/alJXkwuLTpUPBHGUo2JDdQIiTKDVQERur/HigBulue2uOqJxPNpur4dv8GmkzZQA00mcDL3ann4Ga6b+ihq9fHQJOJG+jTgaq7qqqfPP+wO8pIkmMPVQGp+mECyQ4IGMkNtFsQAkZyA60GKq3AwVWQjl6q/+SKHtxF4zm1n3lirwak6hsoEDDQZEAGmlxzdwOtHr/xP9NDVd7VE6J4qsc3UFoBUW6gIjBSH4D2BtESidrTBFS5Gk9I/8qbdHRwz14QFRjphwBtzmn+ztDKY6EzdKQbymhK5304GoDkVJKr5erjRknfQMflpJcsegt8X17dZJyhX8ScoTdkqJqxq3vio8a7kqEGKiyZgQqwrqga6BVKgs4MUMH9lKp07psaodDIQJPhGqiB4tOfZESau5kMze5x6k1L1SciNB+yb+QGyv/hN1CJgIHi40SRJ75lIvm7UvJqz6rWj16F1fgIKP4Esjrg6ARVe1XfQIGAgSYDWg6UzmXUd6MBV9tH/Z+2xCu/evYODLQlgpuSM5S2IQNtCJSXfOkA21Te1iJCLa7i/6HqAqn60XMy2RtoR4AqwkCTz6EG2hGItgjaw1X/w7FJdVAa0IJNrDT+N25K2QlALYB6sjM0uSeHb0pUMuqxgzIk6k+NNxTPzF1eDZBKJjQBNZgJfekqbqBM2ECZkaQhAf0D8+xgQKtYvA8AAAAASUVORK5CYII=') 28 /  28px / 0 round;
+        border-width:  28px;
+        border-style:  solid; 
+   
+      }
+  }
